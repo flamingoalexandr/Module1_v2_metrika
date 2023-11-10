@@ -1,0 +1,50 @@
+.navbar{
+    display: flex;
+    background-color: rgb(27, 16, 92);
+    font-size: 2em;
+    height: 3em;
+}
+.navlist nav{
+    height: 100%;
+}       
+.navlist {
+    display: flex;
+}
+.navlist a:hover {
+    background-color: rgba(26, 44, 122, 0.712);
+}
+.navbar>img{
+    height: 100%;
+}
+.nav-btn{
+    display: none;
+}
+@media (max-width: 1019px)   
+{   
+    .nav-btn{
+        font-size: 2em;
+        width: 96px;
+        padding-bottom: 4px;
+        border: none;
+        background-color: rgb(27, 16, 92);
+        color: white;
+        display: block;
+        cursor: pointer;
+    }
+    .navlist{
+        display: none;
+    }
+
+    .drop:hover .navlist{
+        display: block;
+        position: absolute;
+        background-color: brown;
+        z-index: 3;
+    }
+}
+.navlist a{
+    display: block;
+    padding: 0.9em;
+    text-decoration: none;  
+    color: rgb(255, 255, 255);  
+}

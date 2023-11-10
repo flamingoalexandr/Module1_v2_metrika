@@ -1,0 +1,41 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.main{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+.content{
+    width: 100%;
+    background: linear-gradient(0deg, #007bff 0%, #7479fb 20%);
+}
+.text_in_page{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    margin-left: 1em;
+    font-size: 1em;
+    letter-spacing: 2px;
+    margin-right: 10em;
+    
+}   
+.text_in_page>h1{
+    padding-left: 1.5em;
+}
+.main_txt{
+    font-size: 3.5em;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+}
+@media (max-width: 1050px) {
+    .main_txt{
+        font-size: 2em;
+        display: flex;
+        justify-content: center;    
+    }
+}
